@@ -1,0 +1,16 @@
+[package]
+name = "iron-echo"
+version = "0.1.0"
+authors = ["Onyeka Obi"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.12"
+iron = "0.6.*"
+
+[dependencies.persistent]
+git = "https://github.com/iron/persistent.git"
+
+[dependencies.bodyparser]
+git = "https://github.com/iron/body-parser.git"
+
